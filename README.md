@@ -1,0 +1,1 @@
+I have made a price prediction of Meta stocks using machine learning, i.e, Linear Regression. In this course, I've used the Meta stock data available on kaggle.com. The entire code was written on C++. 
