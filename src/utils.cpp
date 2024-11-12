@@ -8,6 +8,7 @@
 std::vector<StockData> loadData(const std::string& filename) {
     std::vector<StockData> data;
     std::ifstream file(filename);
+    
     if (!file) {
         throw std::runtime_error("Could not open the file: " + filename);
     }
