@@ -4,7 +4,7 @@
 #include <vector>
 
 struct StockData {
-    double date;
+    int date;
     double price;   
 };
 
