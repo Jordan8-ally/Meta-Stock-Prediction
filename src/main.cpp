@@ -7,7 +7,7 @@ int main() {
 
     LinearRegression model;
     model.fit(data);
-    int future_date = 20250101;
+    int future_date = 20300101;
     double predicted_price = model.predict(future_date);
 
     std::cout << "Predicted price for Meta on " << future_date << " is: " << predicted_price << std::endl;
